@@ -1,0 +1,143 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root {
+ --text-color: #fff;
+ --light-black: #222222;
+}
+
+button {
+ border: none;
+ outline: none;
+}
+
+body {
+ background-color: var(--light-black);
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: var(--text-color);
+
+ a {
+  color: var(--text-color);
+  text-decoration: none;
+ }
+
+ .container {
+  max-width: 1610px;
+  width: 100%;
+  padding: 0 10px;
+  margin: auto;
+ }
+
+ li {
+  list-style: none;
+ }
+}
+
+.menu {
+ display: flex;
+ justify-items: center;
+ height: 58px;
+ flex-direction: row;
+ align-items: center;
+ margin-top: 30px;
+ justify-content: space-between;
+ max-width: 783px;
+
+ ul {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+
+  li>a {
+   font-style: italic;
+  }
+ }
+}
+
+.home {
+ display: flex;
+ width: 100%;
+
+ .home__content {
+  h1 {
+   margin-top: 150px;
+   font-size: 80px;
+   font-family: auto;
+   font-weight: 100;
+  }
+  h2 {
+   margin-top: 50px;
+   font-weight: 100;
+   font-size: 50px;
+  }
+ }
+
+ .home__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  max-height: 100vh;
+  height: 100%;
+ }
+
+
+
+ ul {
+  margin-top: 60px;
+ }
+
+ ul>li {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  background-color: rgba(40, 40, 41, 0.7);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: fit-content;
+
+  span {
+   display: flex;
+   align-items: center;
+   gap: 7px;
+   padding-left: 17px;
+   padding-right: 15px;
+  }
+
+  p {
+   padding-right: 20px;
+  }
+ }
+
+ button {
+  padding: 40px 50px;
+  margin-top: 40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--light-black);
+ }
+}
+
+.info{
+ background-color: #282829;
+ padding-top: 100px;
+ display: flex;
+ justify-content: space-between;
+
+}
